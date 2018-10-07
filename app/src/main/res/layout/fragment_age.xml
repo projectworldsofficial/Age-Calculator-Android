@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/activity_horizontal_margin"
+              tools:context="ercanduman.dayofbirth_horoscopes.AgeFragment">
+
+    <TextView
+        android:id="@+id/tvCurrentDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/today"/>
+
+    <TextView
+        android:id="@+id/tvUserBirthDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/birthdate"/>
+
+    <TextView
+        android:id="@+id/tvUsersAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_section1"/>
+
+    <TextView
+        android:id="@+id/tvTheDayOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/dayOfBirth"/>
+
+    <TextView
+        android:id="@+id/tvRemainingDaysForNextBday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/remainingDays"/>
+
+    <Button
+        android:id="@+id/btnSetDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/setDate"
+        />
+</LinearLayout>

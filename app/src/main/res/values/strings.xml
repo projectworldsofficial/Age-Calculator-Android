@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Day of Birth</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_section1">Age</string>
+    <string name="title_section2">Horoscope</string>
+
+    <string name="today">"Today: "</string>
+    <string name="birthdate">"Birth date: "</string>
+    <string name="dayOfBirth">"Day of Birth: "</string>
+    <string name="remainingDays">"Remaining days for next birthday: "</string>
+    <string name="setDate">Choose your birth date</string>
+</resources>
